@@ -1,0 +1,45 @@
+[0m22:23:52.480546 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123A0649DF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123A3AB0530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123A18C0530>]}
+
+
+============================== 22:23:52.516390 | e712e14a-5745-47cc-b1cd-64fcc285248a ==============================
+[0m22:23:52.516390 [info ] [MainThread]: Running with dbt=1.10.10
+[0m22:23:52.517956 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt deps', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'empty': 'None', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\kajal\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m22:23:52.519197 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Projects\dbtPractice\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:23:52.519197 [debug] [MainThread]: Command `dbt deps` failed at 22:23:52.519197 after 0.28 seconds
+[0m22:23:52.519197 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123A45DC290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123A4629430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123A46298E0>]}
+[0m22:23:52.523134 [debug] [MainThread]: Flushing usage events
+[0m22:23:53.275515 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:29:19.406715 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000172AD645070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000172AA9A3440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000172AD6217F0>]}
+
+
+============================== 22:29:19.421476 | 8243ed4f-a07c-49e2-b87d-d1ae365cd1d2 ==============================
+[0m22:29:19.421476 [info ] [MainThread]: Running with dbt=1.10.10
+[0m22:29:19.422990 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt init goodread_reviews', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'printer_width': '80', 'use_experimental_parser': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\kajal\\.dbt', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m22:29:19.506848 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\kajal\.dbt
+[0m22:29:19.513823 [debug] [MainThread]: Starter project path: C:\Users\kajal\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m22:29:19.603310 [info ] [MainThread]: 
+Your new dbt project "goodread_reviews" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:29:19.613068 [info ] [MainThread]: Setting up your profile.
+[0m22:29:29.385016 [info ] [MainThread]: Profile goodread_reviews written to C:\Users\kajal\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m22:29:29.393204 [debug] [MainThread]: Command `dbt init` succeeded at 22:29:29.393204 after 10.26 seconds
+[0m22:29:29.393204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000172AEDBBF80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000172AD6217F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000172ADB50680>]}
+[0m22:29:29.395294 [debug] [MainThread]: Flushing usage events
+[0m22:29:30.165452 [debug] [MainThread]: An error was encountered while trying to flush usage events
